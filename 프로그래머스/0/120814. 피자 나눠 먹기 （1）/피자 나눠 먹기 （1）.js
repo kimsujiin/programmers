@@ -1,4 +1,5 @@
 function solution(n) {
-    return Math.ceil(n/7)
-    
+        
+        let answer = Math.ceil(n/7)
+        return answer
 }
