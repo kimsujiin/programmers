@@ -10,6 +10,6 @@ function solution(price) {
     if(price >=100000){
         return Math.floor(price * 0.95)
     }
-return price
+        return price
     
 }
