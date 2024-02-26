@@ -1,3 +1,7 @@
 function solution(my_string, is_prefix) {
-    return my_string.split(is_prefix)[0] === "" ? 1 : 0;
+  if (my_string.startsWith(is_prefix)) {
+    return 1;
+  } else {
+    return 0;
+  }
 }
