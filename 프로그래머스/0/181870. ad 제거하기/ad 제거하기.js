@@ -1,3 +1,4 @@
 function solution(strArr) {
-   return strArr.filter((str)=>!str.includes('ad'))
+  const filteredArr = strArr.filter(str => !str.includes("ad"));
+  return filteredArr;
 }
